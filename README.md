@@ -2,7 +2,7 @@
 
 A robust Node.js REST API designed to manage procurement records for KGL. This application uses a local file-based storage system (`data.json`) to persist data, allowing users to view existing records and append new ones via HTTP requests.
 
-**Live Deployment:** [INSERT YOUR RENDER URL HERE]
+**Live Deployment:** [https://kgl-procurement-moaz.onrender.com/kgl/procurement]
 
 
 ##  Features
@@ -14,13 +14,13 @@ A robust Node.js REST API designed to manage procurement records for KGL. This a
 * **Error Handling:** Robust handling for missing files, invalid JSON syntax, and bad requests.
 * **Async/Await:** Built using modern JavaScript asynchronous patterns.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Runtime:** Node.js
 * **Framework:** Express.js
 * **Storage:** Local JSON file (`data.json`)
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
@@ -39,7 +39,7 @@ A robust Node.js REST API designed to manage procurement records for KGL. This a
     ```
     The server will start on port `3000` (or the port defined in your environment variables).
 
-## 📡 API Usage
+##  API Usage
 
 ### 1. Get All Records
 Retrieves the list of all procurement entries.
