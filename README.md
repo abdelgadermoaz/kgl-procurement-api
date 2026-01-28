@@ -3,9 +3,9 @@
 A robust Node.js REST API designed to manage procurement records for KGL. This application uses a local file-based storage system (`data.json`) to persist data, allowing users to view existing records and append new ones via HTTP requests.
 
 **Live Deployment:** [INSERT YOUR RENDER URL HERE]
-*(Example: https://kgl-api-moaz.onrender.com/kgl/procurement)*
 
-## 🚀 Features
+
+##  Features
 
 * **Data Persistence:** Uses the file system (`fs` module) to store records in a JSON file.
 * **RESTful Endpoints:**
